@@ -13,9 +13,9 @@ jobs:
       - x64
     steps:
       - name : verif
-        run: echo "Test de fonctionnement du Runner !"
+        run: echo "Test de fonctionnement du Runner"
 
-      - name
+      - name : test commandes
         run: |
           echo "Runner OK"
           hostname
